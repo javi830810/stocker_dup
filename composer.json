@@ -1,0 +1,20 @@
+{
+    "name": "ocorrales/stocker",
+    "description": "Stock related operations",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Oriam",
+            "email": "oriamcr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Stocker\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.1",
+        "monolog/monolog": "^1.17"
+    }
+}

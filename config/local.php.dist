@@ -1,0 +1,63 @@
+<?php
+/**
+ * @author Oriam Corrales <oriamcr@gmail.com>
+ */
+
+return [
+    'tradier' => [
+        'base_url' => 'https://sandbox.tradier.com',
+        'headers' => [
+            'Accept' => 'application/json',
+            'Authorization' => 'Bearer ' . '',
+        ],
+    ],
+    'stocks' => [
+        'interested' => [
+            'NFLX',
+            'AAPL',
+            'GOOG',
+            'ROKU',
+            'FB',
+            'BABA',
+            'GOOGL',
+            'MSFT',
+            'NVDA',
+            'DIS',
+            'S',
+            'AMD',
+            'T',
+            'GM',
+            'WMT',
+            'TGT',
+            'BBY',
+            'CMCSA',
+            'GPS',
+            'AEO',
+            'JPM',
+            'ORCL',
+            'COST',
+            'LUV',
+            'AAL',
+            'DAL',
+            'SBUX',
+            'UAA',
+            'SPY',
+            'CMG',
+            'HD',
+            'INTC',
+            'RTN',
+            'CMI',
+            'SYMC',
+            'NKTR',
+            'M',
+            'EBAY',
+            'WYNN',
+            'TWTR',
+            'SAGE',
+            'SQ',
+            'AXP',
+            'TSLA'
+            ],
+        'optionExpiration' => '2019-01-25'
+    ]
+];
